@@ -1,0 +1,176 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    background-color: #000000;
+}
+
+body {
+    color: #ffffff;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin: 0;
+}
+
+header, footer {
+    background-color:#1b1818;
+}
+
+/*NAVBAR*/
+ul.navbar { 
+    padding: 1rem 0;
+    margin: 0;
+}
+
+ul.navbar li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+
+ul.navbar li.outside {
+    display: inline-block;
+}
+
+ul.inside {
+    padding: 0;
+}
+
+ul.dropdown-list {
+    display: block;
+}
+
+svg {
+    width: 2rem;
+    height: 1.5rem;
+    color:  #B0C4DE;
+    position: relative;
+    left: 17.5rem;
+}
+
+button {
+    background-color: #1b1818;
+    border: none;
+    color:#B0C4DE;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+button:hover {
+    color: #ffffff;
+}
+
+.dropdown, .dropdown2 {
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+} 
+
+.dropdown-content, .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #181515;
+    padding: 1rem;
+    line-height: 2rem;
+    top: 4.8rem;
+}
+
+/*ARTICLE*/
+article {
+    padding: 0rem 1.5rem 1.5rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #B0C4DE;
+}
+
+h2 {
+    color: #a9bdd8;
+}
+
+h3 {
+    color: #99afcc;
+}
+
+h4 {
+    color: #849dbd;
+}
+
+span.bold-text {
+    font-weight: bold;
+}
+
+span.small-text {
+    font-size: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color:#B0C4DE;
+}
+
+a:visited {
+    color:#ADD8E6;
+}
+
+/*ASIDE*/
+aside {
+    float: right;
+}
+
+div.section-aside {
+    width: 30rem;
+    background-color: #0a0a0a;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+div.links-aside {
+    margin-top: 1rem;
+}
+
+div.img-div {
+    padding: 1rem;
+}
+
+/*TABLE*/
+table.table-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 0.05rem #252020 solid;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}
+
+/*FOOTER*/
+footer {
+    padding: 0.5rem 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
